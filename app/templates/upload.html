@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>File Upload</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>File Input</h1>
+            <form method="PUT" action="/api/project/<project_id>/Upload" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="inputFile">File Input</label>
+                    <input type="file" name="inputFile">
+                </div>
+                
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
